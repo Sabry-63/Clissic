@@ -1,0 +1,207 @@
+/*Start Header ----------*/
+.header{
+background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(67, 47, 0, .5)),
+url("../images/header.jpg");
+}
+    /*Nav bar ----------*/
+.header .navbar{ text-transform:uppercase}
+.header .navbar .navbar-brand {
+    color:#FFF;
+    font-weight:800;
+    font-size:35px
+}
+.header .navbar .nav-link{
+    color: #FFF;
+    margin-left: 15px;
+}
+@media (max-width:992px){
+    .header .navbar .nav-link{
+        margin: auto;
+        text-align: center
+    }
+}
+.header .navbar .nav-link:hover{ color:#18bd9f !important;}
+.header .navbar .active{ color: #18bd9f !important;}
+    /*bx slider*/
+.bx-wrapper{
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: #FFF;
+}
+.header .navbar .navbar-toggler{
+    border: 1px solid #fff;
+    outline: none;
+}
+.header .navbar .navbar-toggler span{
+    color: #fff;
+    background-color: #FFF;
+    height: 3px;
+    display: block;
+    margin: 4px 0;
+    z-index: 5;
+}
+
+.slider h2{
+    font-weight: 800;
+    font-size: 50px
+}
+@media(max-width: 767px){
+    .slider h2{
+        font-size:40px
+    }
+}
+.slider span{ color: #18bd9f}
+.slider p{
+    text-align: justify;
+    padding: 5px 20% 0;
+    color: #e2e2e2;
+    font-size: 20px
+}
+    /*---------------*/
+    /*Start Services--------*/
+.services .our span, .team span, .client h2 span, .projects h1 span{
+    border-bottom:2px solid;
+    padding-bottom:10px;
+    color: #18bd9f
+}
+.services .ser-box{
+    background-color: #18bd9f;
+    color: #fff;
+    height: 90%;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 5px #000
+}
+.services .ser-box i{
+    margin: auto;
+}
+@media(max-width: 992px){
+    .services{
+        text-align: center;
+    }
+}
+.services .img-box{ position: relative;}
+.services .img-box .overlay, .projects .gallery div .over{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0 ;
+    height:100%;
+    width: 100%;
+    background-color:#18bd9f;
+    position: absolute;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    line-height: 178px;
+    display: none;
+    background-color:rgba(26, 188, 156, .9);
+}
+.services .img-box:hover .overlay{
+    display: block;
+    border-radius: 1em;
+}
+.services .team-img .img-box{
+    position: relative;
+    padding: 0 !important;
+}
+.services .team-img img{
+    height: 200px;
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 3px 3px 5px
+}
+/*-------------*/
+/*Start clinet------*/
+.client{
+    height: auto;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, .6)),
+    url("../images/programy.jpg");
+    color: #fff;
+    background-size:cover
+}
+.client p{
+    line-height: 2.8;
+    color: #e2e2e2
+}
+.client h3{
+    padding-bottom:100px;
+    color: #18bd9f
+}
+.client .slideer >div{ display: none;}
+.client .slideer .activee{ display: block }
+/* End clinet------*/
+/* Start Projects */
+.projects ul li{
+    border:solid #999 1px;
+    color: #999;
+    border-radius: .25em;
+    cursor: pointer;
+}
+.projects ul li.select{
+    background: #18bd9f;
+    color:#fff;
+    border:solid #18bd9f 1px;
+    border: none
+}
+.projects .gallery div{position: relative;}
+.projects .gallery div .over{
+    line-height: 200px !important;
+    width: 100% !important;
+}
+@media(max-width: 922px){
+    .projects .gallery div .over{
+        line-height: 150px !important;
+    }
+}
+.projects .gallery div .heart{
+    position: absolute;
+    right: 10px;
+    color: #FFF;
+    bottom: 5px;
+    display: none;
+}
+.projects .gallery .row div:hover .over,
+.projects .gallery .row div:hover .heart{ display:block}
+.projects .gallery div .over span{ border: 2px solid #fff;}
+.projects .gallery img{ width: 100%;}
+.mix{ display: none}
+/* End Projects */
+/*Start Footer*/
+footer{
+    background: #232323;
+    color: #EEE;
+}
+footer h3{color: #18bd9f}
+footer .About-classic i{ border: 2px solid #EEE;}
+footer .About-classic p:last-child{ font-size: 20px}
+footer .tag span{
+    border: 1px solid #EEE;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+    text-transform: uppercase
+}
+footer .recnt img{ width: 100%; box-shadow: 5px 5px 5px #000}
+footer .recnt p:first-child{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+footer .recnt p:last-child{
+    font-size: 14px;
+    color: #999
+}
+footer .blog p{
+    border-bottom:2px solid #999;
+    padding:0 0 10px 0
+}
+footer .copy{
+    color: #e2e2e2;
+    text-align: center;
+    font-size: 18px;
+    border-top: 2px solid #777;
+    padding: 10px 0;
+    margin: 0 !important
+}
+/*End Footer*/
